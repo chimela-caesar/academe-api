@@ -11,6 +11,8 @@ Uses:
 * Express
 * Postgres
 
+Code for the front-end is [here](https://github.com/chimela-caesar/academe-react)
+
 ## Why Did I Build This?
 
 This app was built out to demonstrate a basic Node.js Express API.
