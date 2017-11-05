@@ -4,7 +4,7 @@ A Node.js Express API for a basic school information system. Users can log in, c
 
 You can play around with the deployed app [here](https://academe-react.herokuapp.com/). Log in with sample user:
 
-* email: admin@sis.com
+* email: admin@academe.com
 * password: admin
 
 Uses:
