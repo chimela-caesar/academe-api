@@ -13,4 +13,8 @@ Uses:
 
 ## Why Did I Build This?
 
-This app was built out to demonstrate a basic Node.js Express API. 
+This app was built out to demonstrate a basic Node.js Express API.
+
+
+## Architecture
+Separation of concerns and tight encapsulation of components. There is stratefication of abstraction levels. Errors are propagated to the top.
