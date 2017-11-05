@@ -9,11 +9,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var db = (0, _knex2.default)({
 	client: 'pg',
 	connection: {
-		host: '127.0.0.1',
-		user: 'postgres',
-		password: 'admin',
-		database: 'sis'
+		connectionString: process.env.DATABASE_URL,
+		ssl: true
 	}
+
 });
 
 module.exports = function () {
